@@ -1,0 +1,53 @@
+# Environment variables and local config
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+FLIPKART_RECOMMENDER.egg-info/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ML/RAG runtime artifacts
+chroma_db/
+chroma/
+vector_store/
+faiss_index/
+models/
+artifacts/
+*.pkl
+*.joblib
+*.faiss
+*.index
+*.sqlite
+*.sqlite3
+*.db
+
+
